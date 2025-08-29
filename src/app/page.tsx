@@ -5,7 +5,7 @@ import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import ProcessRoadmap from '@/components/sections/layouts/roadmap/ProcessRoadmap';
 import TimelineBase from '@/components/timeline/TimelineBase';
 import FooterBase from '@/components/footer/FooterBase';
-import { ButtonHoverDirectional } from '@/components/buttons/ButtonHoverDirectional/ButtonHoverDirectional';
+import ButtonHoverDirectional from '@/components/buttons/ButtonHoverDirectional/ButtonHoverDirectional';
 
 export default function Home() {
   return (
