@@ -3,9 +3,7 @@ import NavbarBase from '@/components/navigation/NavbarBase';
 import BillboardHero from '@/components/sections/layouts/hero/BillboardHero';
 import SplitAbout from '@/components/sections/layouts/about/SplitAbout';
 import ProcessRoadmap from '@/components/sections/layouts/roadmap/ProcessRoadmap';
-import TimelineBase from '@/components/timeline/TimelineBase';
 import FooterBase from '@/components/footer/FooterBase';
-import ButtonHoverDirectional from '@/components/buttons/ButtonHoverDirectional/ButtonHoverDirectional';
 
 export default function Home() {
   return (
@@ -32,9 +30,9 @@ export default function Home() {
 
       <ProcessRoadmap 
         items={[
-          { title: 'Phase 1: Research', description: 'Initial insights and understandings.' },
-          { title: 'Phase 2: Development', description: 'Building the underlying systems.' },
-          { title: 'Phase 3: Launch', description: 'Making MemeCoin available to the masses.' }
+          { id: '1', title: 'Phase 1: Research', description: 'Initial insights and understandings.', items: [], reverse: false, image: '/images/phase1.jpg' },
+          { id: '2', title: 'Phase 2: Development', description: 'Building the underlying systems.', items: [], reverse: true, image: '/images/phase2.jpg' },
+          { id: '3', title: 'Phase 3: Launch', description: 'Making MemeCoin available to the masses.', items: [], reverse: false, image: '/images/phase3.jpg' }
         ]}
         className="bg-futuristic-card-bg"
       />
